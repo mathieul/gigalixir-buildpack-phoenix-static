@@ -33,6 +33,7 @@ resolve_node_version
 
 head "Installing binaries"
 cleanup_cache
+remove_node
 download_node
 install_node
 install_npm
